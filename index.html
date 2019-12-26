@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <title>Journey Into Space</title>
+
+
+</head>
+
+<body>
+    
+    
+    <!-- 進入遊戲畫面 -->
+    <div id="gamebody" class="gamebody">
+        <!-- 初始畫面 -->
+        <div id="mask">
+            <img id="startButton" onclick="startGame()" src="img/play.png" alt="">
+        </div>
+        <!-- 分數位置 -->
+        <p id="score"></p>
+        <!-- 背景圖 -->
+        <div id="back" class="back">
+            <img src="img/bg2.jpeg">
+            <img src="img/bg2.jpeg" alt="">
+            <img src="img/bg2.jpeg" alt="">
+            <div id="msBlock" class="msBlock"></div>    
+        </div>
+        <!-- 太空人 -->
+        <img src="img/astronaut.png" alt="" id="astronaut">
+        <div class="over_01"></div>
+        <div class="over_02"></div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
